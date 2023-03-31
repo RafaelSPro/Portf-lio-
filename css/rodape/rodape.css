@@ -1,0 +1,18 @@
+.rodape{
+    background-color: var(--cor-de-fundo1);
+}
+
+.rodape__descricao{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500 ;
+}
+
+.rodape__data{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    
+}

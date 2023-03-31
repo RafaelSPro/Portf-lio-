@@ -1,0 +1,27 @@
+.cursos{
+    padding-left: 60px;
+}
+
+.alura{
+    background-color: white;
+    width: 368px;
+    height: 268px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alura__titulo{
+    padding-left: 10px;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.alura__descricao{
+    padding-left: 10px;
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    font-weight: 500;
+}

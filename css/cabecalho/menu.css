@@ -1,0 +1,44 @@
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+    width: 100%;
+    
+}
+
+.menu__titulo {
+    margin-left: 80px;
+    padding-top: 15px;
+    margin-top: 15px;
+    font-family: var(--fonte-principal);
+    
+}
+
+.menu__lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-right: 70px;
+    
+}
+
+.menu__item:last-child .menu__link{
+    color: black;
+}
+
+.menu__item {
+    padding: 0px 10px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.menu__link {
+    color: #3d3d3db0;
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    
+
+}
+
+

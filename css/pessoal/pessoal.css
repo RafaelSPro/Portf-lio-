@@ -1,0 +1,57 @@
+/*.pessoal {
+    display: flex;
+    flex-direction: column;
+} */
+.pessoal{
+    width: 100%;
+}
+.pessoal__info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pessoal__foto--rafael {
+    width: 160px;
+    height: 210px;
+    position: absolute;
+    left: 80%;
+    top: 25%;
+}
+
+.pessoal__meu {
+    padding: 80px 0 0 80px;
+    font-size: 48px;
+    text-align: justify;
+    font-family: var(--fonte-principal);
+}
+
+.pessoal__formacao {
+    text-align: justify;
+    padding: 10px 0 0 80px;
+    font-size: 22px;
+}
+
+.pessoal__lista {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.pessoal__item {
+    padding-right: 90px;
+}
+
+.pessoal__redes {
+        color: var(--cor-fonte-letra1);
+        text-decoration: none;
+        
+}
+
+.pessoal__redes:hover {
+    text-decoration: underline blue;
+    
+}
+

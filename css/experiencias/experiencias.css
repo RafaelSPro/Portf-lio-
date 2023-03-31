@@ -1,0 +1,80 @@
+.experiencias{
+    background-color: var(--cor-de-fundo1);
+    width: 100%;
+    
+}
+
+.experiencias__titulo{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 33px;
+    padding: 30px 0;
+}
+
+.experiencia__cripto{
+    display: flex;
+    margin: 10px 0 30px 100px;
+
+}
+
+.cripto__img{
+    width: 600px;
+}
+
+.cripto__descricao{
+    padding: 90px 0 0 80px;
+}
+
+.experiencia__forca{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px 120px 30px 0 ;
+}
+
+.forca__img{
+    width: 600px;
+}
+
+.forca__descricao{
+    padding: 60px 100px 0 0;
+}
+
+.projeto__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.projeto__texto{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.repositorio{
+    background-color: #f5f5f5 ;
+    padding: 12px 10px 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    margin-top: 80px;
+    color: #2a7ae4;
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+.demo{
+    background-color: #2A7AE4;
+    padding: 12px 10px 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    margin-top: 30px;
+    color: white;
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    text-decoration: none;
+}

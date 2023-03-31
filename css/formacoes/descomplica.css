@@ -1,0 +1,48 @@
+.formacoes {
+    width: 100%;
+    background-color: var(--cor-de-fundo2);
+    padding-bottom: 30px;
+}
+
+.minhas__formacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formacoes__titulo{
+    padding-top: 40px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-family: var(--fonte-principal);
+}
+
+.descomplica{
+    background-color: white;
+    width: 368px;
+    height: 268px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descomplica__img{
+    width: 350px;
+    height: 480px;
+}
+
+.descomplica__titulo{
+    padding-left: 10px;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.descomplica__descricao{
+    padding-left: 10px;
+    font-family: var(--fonte-principal);
+    font-size: 15px;
+    font-weight: 500;
+}   
+
