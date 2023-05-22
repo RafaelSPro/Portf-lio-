@@ -78,3 +78,68 @@
     font-size: 14px;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    .experiencias{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .experiencias__titulo{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .experiencia__cripto{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-left: 80px;
+        padding-bottom: 15px;
+        
+        
+    }
+
+    .cripto__img{
+        width: 296px;
+        padding-top: 15px;
+    }
+
+    .cripto__descricao{
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .experiencia__forca{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-left: 80px;
+        padding-bottom: 15px;
+        
+        
+    }
+
+    .forca__img{
+        width: 296px;
+        padding-top: 15px;
+    }
+
+    .forca__descricao{
+        padding:0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+
+    .projeto__texto{
+        padding-bottom: 20px;
+    }
+
+    
+
+
+}

@@ -38,6 +38,7 @@
     list-style-type: none;
     padding-left: 80px;
     padding-bottom: 30px;
+    text-decoration: none;
 }
 
 .pessoal__item {
@@ -47,11 +48,79 @@
 .pessoal__redes {
         color: var(--cor-fonte-letra1);
         text-decoration: none;
+        cursor: default;
         
 }
 
 .pessoal__redes:hover {
     text-decoration: underline blue;
     
+}
+
+@media screen and (max-width:768px) {
+    .pessoal{
+        width: 100%;
+        margin: 0;
+    }
+
+    .pessoal__info{
+        display:flex;
+        flex-direction: column;
+        
+    }
+
+    .pessoal__meu{
+        display: block;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        padding-left: 20px;
+        
+    }
+
+    .pessoal__formacao{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        padding-left: 20px;
+        width: 328px;
+       
+    }
+    
+
+   .pessoal__foto--rafael{
+        width: 98px;
+        height: 98px;
+        position: relative;
+        top: 70px;
+        left: 20px;
+        padding: 0;
+        margin: 0;
+        padding-left: 50px;
+        padding-bottom: 30px;
+
+   }
+
+   .pessoal__lista{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        font-style: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .pessoal__item{
+        padding-right: 0;
+        margin: 0;
+    }
 }
 

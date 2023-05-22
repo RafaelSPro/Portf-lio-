@@ -39,3 +39,30 @@
     font-size: 14px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+    .hobbies__meus{
+        width: 120px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .hobbies__pessoais{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hobbies__titulo{
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .hobbies__nome{
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+    }
+}

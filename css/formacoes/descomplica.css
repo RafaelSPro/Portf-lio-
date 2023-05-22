@@ -46,3 +46,14 @@
     font-weight: 500;
 }   
 
+@media screen and (max-width: 768px) {
+    .minhas__formacoes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formacoes{
+        width: 100%;
+    }
+    
+}

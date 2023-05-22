@@ -40,3 +40,35 @@
     font-size: 14px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+    .skill{
+        width: 100%;
+        margin: 0;
+    }
+
+    .skill__ti{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill__titulo{
+        font-size: 22px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .skill__minhas{
+        width: 120px;
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .skill__nome{
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+    }
+}
